@@ -1,0 +1,11 @@
+{
+  "apps" : [
+  {
+    "name"       : "kapgel-local",
+    "script"     : "kapgel-localhost.js",
+    "instances"  : 1,
+    "exec_mode"  : "fork",
+	"max_restarts" : 10
+  }
+  ]
+}
